@@ -25,7 +25,7 @@ Dev/Prod Parity - means production and development environment must be as simila
 
 Logs - logs are very essential to understand the internal working of application. We should store all the logs in a single location so that if some error occurs, we can look at that location and find the bug with the help of logs.
 
-Admin Processes - 
+Admin Processes - Processes that run by the admin must be run in the same environment of the application. It should not affect main servies of the application.
 
 Atomic design - is a methodology for organizing and structuring the development of user interface in hierarchical, modular, and scalable way.
 
