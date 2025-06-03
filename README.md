@@ -45,8 +45,8 @@ is a methodology for organizing and structuring the development of user interfac
 **Git** - is a version control system. It is like a tool.
 **Github** - is a cloud-based service that uses git. It is like a platform where you store and share your code using git.
 
-## Git config: - 
+## Git config
 is a convenience function that is used to set git configuration values on a global or local project level.
 
-## .gitignore: - 
+## .gitignore
 is a file which includes which files we want to exclude from tracking by git. Remain untracked.
