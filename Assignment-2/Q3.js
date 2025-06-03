@@ -1,3 +1,5 @@
+//Q3 Write a function expression that takes in another function as an argument
+
 let num1 = 10;
 let num2 = 20;
 

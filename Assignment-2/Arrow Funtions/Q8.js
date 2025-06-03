@@ -1,3 +1,5 @@
+// Write a function expression that takes in two numbers and returns their sum.
+
 let num1 = parseInt(prompt("Enter a number 1: "));
 let num2 = parseInt(prompt("Enter a number 2: "));
 

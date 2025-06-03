@@ -1,5 +1,6 @@
+// Write a function expression that takes in a number and returns true if it's even and false if it's odd.
+
 let num1 = parseInt(prompt("Enter a number 1: "));
-let num2 = parseInt(prompt("Enter a number 2: "));
 
 const evenOdd = (num1) => {
     if(num1%2 == 0){
