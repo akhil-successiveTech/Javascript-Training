@@ -1,9 +1,9 @@
 # Java-Script
 
-## 12 Factor App: - 
+## 12 Factor App
 is a methodology and practices for building and deploying applications, espacially those designed for the cloud.
 
-## 12 Factors: - 
+## 12 Factors
 1. **Codebase** - 1 codebase per application tracked in version control.
 
 2. **Dependencies** - Explicitly declare and isolate dependencies.
@@ -28,7 +28,7 @@ is a methodology and practices for building and deploying applications, espacial
 
 12. **Admin Processes** - Processes that run by the admin must be run in the same environment of the application. It should not affect main servies of the application.
 
-# Atomic design: - 
+# Atomic design
 is a methodology for organizing and structuring the development of user interface in hierarchical, modular, and scalable way.
 
 1. **Atoms** - smallest fundamental building block such as buttons, icons.
@@ -42,7 +42,7 @@ is a methodology for organizing and structuring the development of user interfac
 5. **Pages** - The final stage, where templates are populated with actual content and present the finished design to the user
 
 ## Git V/S Github
-**Git** - is a version control system. It is like a tool
+**Git** - is a version control system. It is like a tool.
 **Github** - is a cloud-based service that uses git. It is like a platform where you store and share your code using git.
 
 ## Git config: - 
