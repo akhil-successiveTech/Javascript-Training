@@ -1,3 +1,6 @@
+<<<<<<< HEAD
+# Java-Script
+=======
 # Java-Script
 
 ## 12 Factor App
