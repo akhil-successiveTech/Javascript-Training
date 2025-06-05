@@ -12,22 +12,27 @@
 
 function pattern(){
     let num = prompt("Enter the number: ");
-    let rows = 1;
-    for(let i = num; i>=1; i--){
-        let a = "";
-        for(let j = 1; j <= i; j++){
-            a += j + " ";
-        }
-        console.log(a);
-        rows++;
+    if(isNaN(num)){
+        alert("Enter a valid number: ");
     }
-    if(rows > num){
-        for(let i = 2; i<=num; i++){
+    else{
+        let rows = 1;
+        for(let i = num; i>=1; i--){
             let a = "";
             for(let j = 1; j <= i; j++){
                 a += j + " ";
             }
             console.log(a);
+            rows++;
+            if(rows > num){
+                for(let i = 2; i<=num; i++){
+                    let a = "";
+                    for(let j = 1; j <= i; j++){
+                        a += j + " ";
+                    }
+                    console.log(a);
+                }
+            }
         }
     }
 }

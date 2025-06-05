@@ -1,3 +1,5 @@
+//Q8 Display numbers from 1 to 20 using for, while and do while loop
+
 function loops(){
     let arr1 = [];
     let arr2 = [];

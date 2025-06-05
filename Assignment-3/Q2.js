@@ -6,9 +6,8 @@
 //7 8 9 10
 
 function pattern() {
-    let num = prompt("Enter a value: ");
+    let num = parseInt(prompt("Enter a value: "));
     let row = 1;
-    let col = 1;
     for(let i=1; i<=num; i++){
         // Creating a string and concatinating numbers
         let a = "";
