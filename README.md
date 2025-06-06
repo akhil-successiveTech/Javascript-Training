@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-# Java-Script
-=======
 # Java-Script
 
 ## 12 Factor App
-is a methodology and practices for building and deploying applications, espacially those designed for the cloud.
+is a methodology and practices for building and deploying applications, especially those designed for the cloud.
 
 ## 12 Factors
 1. **Codebase** - 1 codebase per application tracked in version control.
@@ -15,7 +12,7 @@ is a methodology and practices for building and deploying applications, espacial
 
 4. **Backing Services** - any service that your application consumes is known as backing services. These servies are treated as resources.
 
-5. **Build, Release, and Run** - strictly seperate build, release and run stages. 
+5. **Build, Release, and Run** - strictly separate build, release and run stages. 
 
 6. **Processes** - use of sticky sessions must be avoided. Execute the application as one or more stateless processes(user data should be stored in different cloud platform).
 
@@ -53,4 +50,3 @@ is a convenience function that is used to set git configuration values on a glob
 
 ## .gitignore
 is a file which includes which files we want to exclude from tracking by git. Remain untracked.
->>>>>>> a88c5db714c87bd7775b2b423cf37c267ad24dc5
