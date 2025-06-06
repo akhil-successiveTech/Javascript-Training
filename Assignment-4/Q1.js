@@ -1,3 +1,5 @@
+//Q1 Remove all the duplicate values from the string
+
 function duplicateChar(){
     let str = prompt("Enter the string: ");
     let setAns = new Set(str);
