@@ -8,7 +8,7 @@ console.log("Fibonacci Series: ");
 let str = "";
 str += a + ", ";
 str += b + ", ";
-for(let i=0; i<n; i++){
+for(let i = 2; i<n; i++){
     let c = a + b;
     a = b;
     b = c;
