@@ -3,8 +3,11 @@
 function findSum(){
     let arr = [];
     let num = parseInt(prompt("Enter the size of array: "));
+    if(num <= 0){
+        alert("Enter a valid number: ")
+    }
     for(let i = 0; i < num; i++){
-        let num1 = parseInt(prompt(`Enter the number ${i+1}: `));
+        let num1 = parseInt(prompt(`Enter a (positive)number ${i+1}: `));
         arr.push(num1);
     }
     let sum = 0;
