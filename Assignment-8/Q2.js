@@ -1,9 +1,10 @@
-// Error here is 
+// Error here is in console log. We should use , symbol instead of + symbol.
 
-let myObject = { 
+ let myObject = { 
    name: 'John', 
    age: 30 
 };
-for (let property in myObject) { // Let keyword is not used here
-   console.log(property, ': ', myObject.property);
+
+for(property in myObject) {
+   
 }
