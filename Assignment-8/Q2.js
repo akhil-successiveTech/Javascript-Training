@@ -6,5 +6,5 @@
 };
 
 for(property in myObject) {
-   
+   console.log(property + ': ' + myObject[property]);
 }
