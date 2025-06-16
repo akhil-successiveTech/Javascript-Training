@@ -5,26 +5,19 @@ let limit = 5
 const url = "https://catfact.ninja/fact";
 
 async function rateLimiter(){
-    limit--;
     if(limit == 0){
         return "Error limit reached";
     }
     let res = fetch(url).then((res) => res.json());
+    limit--;
     return res;
 }
 
-rateLimiter().then((res) => {
-    console.log(res);
-    rateLimiter().then((res) => {
-        console.log(res);
-        rateLimiter().then((res) => {
-            console.log(res);
-            rateLimiter().then((res) => {
-                console.log(res);
-                rateLimiter().then((res) => {
-                    console.log(res);
-                });
-            });
-        });
-    });
-});
+let arr = [];
+for(let i = 0; i < limit; i++){
+    arr.push(rateLimiter().then((res) => res.fact));
+}
+
+Promise.allSettled(arr).then((value) => {
+    console.log(value);
+})
